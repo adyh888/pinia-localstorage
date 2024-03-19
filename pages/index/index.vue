@@ -10,13 +10,13 @@
 
 <script setup ts>
 //实力化容器
-import { useAcStore } from '../../store'
+import { useAcStore, request } from '../../store'
 import { storeToRefs } from 'pinia'
 
 const acStore = useAcStore()
 let { count } = storeToRefs(acStore)
 const test = () => {
-  acStore.alarmSelect({})
+  request(acStore.alarmSelect, {})
 }
 const test2 = () => {
   count.value++
