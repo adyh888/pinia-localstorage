@@ -1,0 +1,22 @@
+{
+  "name": "pinia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mew/request": "^5.2.668",
+    "axios": "^1.6.8",
+    "axios-adapter-uniapp": "^0.1.4",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1"
+  },
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}
